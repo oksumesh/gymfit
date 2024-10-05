@@ -1,0 +1,67 @@
+<!-- loader start -->
+<div class="page_loader">
+  <img loading="lazy" src="assets/img/loader.svg" alt="img">
+</div>
+<!-- loader end -->
+
+<!-- header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="main-nav">
+          <!-- Mobile menu toggle button (hamburger/x icon) -->
+          <input id="main-menu-state" type="checkbox">
+          <label class="main-menu-btn" for="main-menu-state">
+            <span class="main-menu-btn-icon"></span>
+            Toggle main menu visibility
+          </label>
+          <h2 class="nav-brand">
+            <a routerLink="/"><img loading="lazy" src="assets/img/logo.webp" alt="Gymfit" class="img-fluid"></a>
+          </h2>
+          <!-- Sample menu definition -->
+          <ul id="main-menu" class="sm sm-clean" data-smartmenus-id="1559366433783545">
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/about">About Us</a></li>
+            <li><a routerLink="/services">Services</a></li>
+            <li><a routerLink="/trainers">Trainers</a></li>
+            <li><a routerLink="/classes">Classes</a></li>
+            <li><a routerLink="/blog">Blog</a></li>
+            <li><a href="#!">Pages</a>
+              <ul>
+                <li><a routerLink="/pricing">Pricing</a></li>
+                <li><a routerLink="/coming-soon">Coming Soon</a></li>
+                <li><a routerLink="/error">Error</a></li>
+              </ul>
+            </li>
+            <li class="last_menu"><a routerLink="/contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- start header banner section -->
+<div class="coming_bg errow_bg"
+  style="background-image:url(assets/img/error_bg.webp); height:100vh; background-size:cover; width:100%;">
+  <div class="coming_con_1">
+    <div class="coming_1_con">
+      <div class="coming_con">
+        <div class="errow_img">
+          <div class="errow_img">
+            <img loading="lazy" class="img-fluid" src="assets/img/error_img.webp" alt="">
+          </div>
+          <div class="errow_con">
+            <h2>Oops! Page Not Found</h2>
+            <div class="errow_btn">
+              <a routerLink="/" aria-label="add_sign_btn" class="btn_errow">Back To Homepage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end header banner section -->
